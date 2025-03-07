@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Inter"
+}
+
+:root {
+  --color-muted: #67595A;
+  --color-light: #9C9495;
+  --color-white: #FFFFFF;
+  --color-primary: #331516;
+  --color-secondary: #4A3434;
+
+  --bg-dark: #1E0B0D;
+  --bg-primary: #331516;
+  --bg-secondary: #492222;
+  --bg-warning: #E0822D;
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+.text-light {
+  color: var(--color-light);
+}
